@@ -10,17 +10,14 @@
           transition="scale-transition"
           width="40"
         />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
       </div>
-
+      <v-spacer></v-spacer>
+      <v-select
+        style="margin-top: 1.5em; padding: 1em"
+        :items="items"
+        label="Bitte auswählen"
+        single-line
+      ></v-select>
       <v-spacer></v-spacer>
 
       <v-card outlined color="transparent"> Score: {{ score }} </v-card>
@@ -44,6 +41,7 @@ export default {
 
   data: () => ({
     score: 5,
+    items: ["Test", "KEKW", "LUL"],
   }),
 };
 </script>
