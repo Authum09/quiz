@@ -1,0 +1,70 @@
+{
+    "questions": [
+        {
+            "question": "What is 3 times 4 ?",
+            "answers": {
+                "A": 5,
+                "B": 3,
+                "C": 12,
+                "D": 15
+            },
+            "correctAnswer": "C",
+            "category": "MATH"
+        },
+        {
+            "question": "What is 4 times 4 ?",
+            "answers": {
+                "A": 5,
+                "B": 3,
+                "C": 12,
+                "D": 15
+            },
+            "correctAnswer": "C",
+            "category": "MATH"
+        },
+        {
+            "question": "What is 5 times 4 ?",
+            "answers": {
+                "A": 5,
+                "B": 3,
+                "C": 12,
+                "D": 15
+            },
+            "correctAnswer": "C",
+            "category": "MATH"
+        },
+        {
+            "question": "What is 6 times 4 ?",
+            "answers": {
+                "A": 5,
+                "B": 3,
+                "C": 12,
+                "D": 15
+            },
+            "correctAnswer": "C",
+            "category": "MATH"
+        },
+        {
+            "question": "What is 14 times 4 ?",
+            "answers": {
+                "A": 5,
+                "B": 3,
+                "C": 12,
+                "D": 15
+            },
+            "correctAnswer": "C",
+            "category": "CS"
+        },
+        {
+            "question": "What is 7 times 4 ?",
+            "answers": {
+                "A": 5,
+                "B": 3,
+                "C": 12,
+                "D": 15
+            },
+            "correctAnswer": "C",
+            "category": "CS"
+        }
+    ]
+}
