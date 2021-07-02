@@ -24,7 +24,7 @@
     </v-app-bar>
 
     <v-main>
-      <Quiz />
+      <Quiz @increaseScore="increaseScore" />
     </v-main>
   </v-app>
 </template>
@@ -40,8 +40,13 @@ export default {
   },
 
   data: () => ({
-    score: 5,
+    score: 0,
     items: ["Test", "KEKW", "LUL"],
   }),
+  methods: {
+    increaseScore: function () {
+      this.score += 1;
+    },
+  },
 };
 </script>

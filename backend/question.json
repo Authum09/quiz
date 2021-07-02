@@ -9,7 +9,7 @@
         "D": 15
       },
       "correctAnswer": "C",
-      "category": "TEST"
+      "category": "Math"
     },
     {
       "question": "What is 4 times 4 ?",
@@ -20,7 +20,7 @@
         "D": 15
       },
       "correctAnswer": "C",
-      "category": "KEKW"
+      "category": "Math"
     },
     {
       "question": "What is 5 times 4 ?",
